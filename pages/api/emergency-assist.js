@@ -7,7 +7,7 @@ import axios from "axios";
 // Load the knowledge base from JSON once at startup.
 let knowledgeBase = {};
 try {
-  const kbPath = path.join(process.cwd(), "Chatbot", "Chatbot", "knowledge_base.json");
+  const kbPath = path.join(process.cwd(), "public", "Chatbot", "Chatbot", "knowledge_base.json");
   const data = fs.readFileSync(kbPath, "utf8");
   knowledgeBase = JSON.parse(data);
   console.log("📚 Knowledge base loaded.");
