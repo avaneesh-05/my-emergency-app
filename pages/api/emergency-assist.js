@@ -66,7 +66,7 @@ async function getChatbotResponse(query, context, conversation = null) {
       },
       {
         headers: {
-          Authorization: `Bearer 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`
+          Authorization: `Bearer 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`
         },
         timeout: 15000
       }
