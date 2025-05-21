@@ -36,7 +36,7 @@ export default function Auth() {
         <div className="px-4 pb-6 flex flex-col space-y-3">
           <button
             onClick={() => router.push('/signin-user')}
-            className="w-full bg-red-500 text-white py-3 rounded-full font-semibold hover:bg-red-600 transition"
+            className="w-full bg-blue-500 text-white py-3 rounded-full font-semibold hover:bg-red-600 transition"
           >
             Sign In as User
           </button>
